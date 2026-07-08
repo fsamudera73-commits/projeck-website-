@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produk - Toko Camilan Nusantara</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#FFF8DC;
+}
+
+header{
+    background:#FF9800;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+nav{
+    background:#333;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD54F;
+}
+
+.container{
+    width:90%;
+    margin:30px auto;
+}
+
+.produk{
+    background:white;
+    color:rgb(255, 174, 0);
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgb(255, 132, 0);
+    text-align:center;
+}
+
+.produk img{
+    width:220px;
+    border-radius:10px;
+}
+
+.produk h2{
+    color:#E65100;
+}
+
+.harga{
+    color:red;
+    font-size:20px;
+    font-weight:bold;
+}
+
+footer{
+    background:#FF9800;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Toko Camilan Nusantara</h1>
+<p>Daftar Produk Kami</p>
+</header>
+
+<nav>
+<a href="index.html">Beranda</a>
+<a href="produk.html">Produk</a>
+<a href="tentang.html">Tentang Kami</a>
+<a href="kontak.html">Kontak</a>
+</nav>
+
+<div class="container">
+
+<div class="produk">
+<img src="images/keripik.jpeg" alt="Keripik Pisang">
+<h2>Keripik Pisang</h2>
+<p>Keripik pisang renyah dengan berbagai pilihan rasa seperti original, cokelat, keju, dan balado.</p>
+<p class="harga">Rp15.000</p>
+</div>
+
+<div class="produk">
+<img src="images/basreng.jpeg" alt="Basreng">
+<h2>Basreng Pedas</h2>
+<p>Bakso goreng kering yang gurih dengan tingkat kepedasan yang bisa dipilih sesuai selera.</p>
+<p class="harga">Rp18.000</p>
+</div>
+
+<div class="produk">
+<img src="images/kerupuk.jpeg" alt="Kerupuk Seblak">
+<h2>Kerupuk Seblak</h2>
+<p>Kerupuk seblak dengan bumbu khas yang pedas, gurih, dan sangat cocok dinikmati kapan saja.</p>
+<p class="harga">Rp12.000</p>
+</div>
+
+<div class="produk">
+<img src="images/stik.jpeg" alt="stik Keju">  
+<h2>Stik Keju</h2>
+<p>Stik keju renyah dengan aroma keju yang lezat dan cocok untuk camilan keluarga.</p>
+<p class="harga">Rp20.000</p>
+</div>
+
+</div>
+
+<footer>
+<p><b>Toko Camilan Nusantara</b></p>
+<p>&copy; 2026 All Rights Reserved.</p>
+<svg width="200" height="200">
+
+    <!-- Lingkaran luar -->
+    <circle cx="100" cy="100" r="80"
+        fill="#191970"
+        stroke="#D4A017"
+        stroke-width="6"/>
+
+    <!-- Keripik -->
+    <ellipse cx="100" cy="85" rx="30" ry="20"
+        fill="#FFD54F"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Keripik kedua -->
+    <ellipse cx="85" cy="115" rx="25" ry="18"
+        fill="#FFCA28"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Keripik ketiga -->
+    <ellipse cx="115" cy="115" rx="25" ry="18"
+        fill="#FFC107"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Huruf C (Camilan) -->
+    <text x="88" y="170"
+        font-size="30"
+        fill="white"
+        font-family="Arial"
+        font-weight="bold">
+        C
+    </text>
+
+</svg>
+
+</footer>
+
+</body>
+</html>

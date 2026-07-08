@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toko Camilan Nusantara - Beranda</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#FFF8DC;
+}
+
+header{
+    background:#FF9800;
+    color:rgb(255, 253, 253);
+    text-align:center;
+    padding:25px;
+}
+
+nav{
+    background:#333;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD54F;
+}
+
+.hero{
+    text-align:center;
+    padding:40px;
+}
+
+.hero h2{
+    color:#E65100;
+}
+
+.hero img{
+    width:300px;
+    border-radius:15px;
+}
+
+.card{
+    width:80%;
+    margin:auto;
+    background:white;
+    color:rgb(255, 174, 0);
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgb(255, 153, 0);
+}
+
+footer{
+    background:#FF9800;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Toko Camilan Nusantara</h1>
+<p>Camilan Lezat, Renyah, dan Berkualitas</p>
+</header>
+
+<nav>
+<a href="index.html">Beranda</a>
+<a href="produk.html">Produk</a>
+<a href="tentang.html">Tentang Kami</a>
+<a href="kontak.html">Kontak</a>
+</nav>
+
+<section class="hero">
+
+<h2>Selamat Datang</h2>
+
+<img src="images/c.jpeg" alt="Camilan Nusantara">
+</section>
+
+<div class="card">
+
+<h2>Tentang Website</h2>
+
+<p>
+Selamat datang di <b>Toko Camilan Nusantara</b>.
+Kami menyediakan berbagai camilan khas Indonesia yang renyah,
+lezat, dan dibuat dari bahan-bahan berkualitas.
+</p>
+
+<p>
+Produk kami cocok dinikmati bersama keluarga,
+teman, maupun sebagai oleh-oleh.
+</p>
+
+<h3>Mengapa Memilih Kami?</h3>
+
+<ul>
+<li>✅ Produk berkualitas.</li>
+<li>✅ Harga terjangkau.</li>
+<li>✅ Banyak pilihan rasa.</li>
+<li>✅ Pelayanan ramah.</li>
+<li>✅ Pengiriman cepat.</li>
+</ul>
+
+</div>
+
+<footer>
+
+<p><b>Toko Camilan Nusantara</b></p>
+
+<p>&copy; 2026 All Rights Reserved.</p>
+<svg width="200" height="200">
+
+    <!-- Lingkaran luar -->
+    <circle cx="100" cy="100" r="80"
+        fill="#191970"
+        stroke="#D4A017"
+        stroke-width="6"/>
+
+    <!-- Keripik -->
+    <ellipse cx="100" cy="85" rx="30" ry="20"
+        fill="#FFD54F"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Keripik kedua -->
+    <ellipse cx="85" cy="115" rx="25" ry="18"
+        fill="#FFCA28"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Keripik ketiga -->
+    <ellipse cx="115" cy="115" rx="25" ry="18"
+        fill="#FFC107"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Huruf C (Camilan) -->
+    <text x="88" y="170"
+        font-size="30"
+        fill="white"
+        font-family="Arial"
+        font-weight="bold">
+        C
+    </text>
+
+</svg>
+
+</footer>
+
+</body>
+</html>

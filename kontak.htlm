@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak - Toko Camilan Nusantara</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#FFF8DC;
+}
+
+header{
+    background:#FF9800;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+nav{
+    background:#333;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD54F;
+}
+
+.container{
+    width:90%;
+    margin:30px auto;
+}
+
+.card{
+    background:white;
+    color:rgb(255, 174, 0);
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    margin-bottom:20px;
+}
+
+h2{
+    color:#E65100;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+button{
+    background:#FF9800;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#F57C00;
+}
+
+footer{
+    background:#FF9800;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Toko Camilan Nusantara</h1>
+<p>Hubungi Kami</p>
+</header>
+
+<nav>
+<a href="index.html">Beranda</a>
+<a href="produk.html">Produk</a>
+<a href="tentang.html">Tentang Kami</a>
+<a href="kontak.html">Kontak</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Informasi Kontak</h2>
+
+<p><b>📍 Alamat:</b><br>
+Jl. Nusantara No. 123, Banjarmasin, Kalimantan Selatan</p>
+
+<p><b>📞 Telepon:</b><br>
+0812-3456-7890</p>
+
+<p><b>📧 Email:</b><br>
+tokocamilannusantara@gmail.com</p>
+
+<p><b>🕒 Jam Operasional:</b><br>
+Senin - Minggu<br>
+08.00 - 21.00 WITA</p>
+
+<p><b>📱 Instagram:</b><br>
+@tokocamilannusantara</p>
+
+<p><b>📘 Facebook:</b><br>
+Toko Camilan Nusantara</p>
+
+</div>
+
+<div class="card">
+
+<h2>Formulir Kontak</h2>
+
+<form>
+
+<label>Nama Lengkap</label>
+<input type="text" placeholder="Masukkan nama Anda">
+
+<label>Email</label>
+<input type="email" placeholder="Masukkan email Anda">
+
+<label>Nomor Telepon</label>
+<input type="tel" placeholder="Masukkan nomor telepon">
+
+<label>Pesan</label>
+<textarea rows="5" placeholder="Tulis pesan Anda"></textarea>
+
+<button type="submit">Kirim Pesan</button>
+
+</form>
+
+</div>
+
+</div>
+
+<footer>
+
+<p><b>Toko Camilan Nusantara</b></p>
+
+<p>&copy; 2026 All Rights Reserved.</p>
+<svg width="200" height="200">
+
+    <!-- Lingkaran luar -->
+    <circle cx="100" cy="100" r="80"
+        fill="#191970"
+        stroke="#D4A017"
+        stroke-width="6"/>
+
+    <!-- Keripik -->
+    <ellipse cx="100" cy="85" rx="30" ry="20"
+        fill="#FFD54F"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Keripik kedua -->
+    <ellipse cx="85" cy="115" rx="25" ry="18"
+        fill="#FFCA28"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Keripik ketiga -->
+    <ellipse cx="115" cy="115" rx="25" ry="18"
+        fill="#FFC107"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Huruf C (Camilan) -->
+    <text x="88" y="170"
+        font-size="30"
+        fill="white"
+        font-family="Arial"
+        font-weight="bold">
+        C
+    </text>
+
+</svg>
+
+</footer>
+
+</body>
+</html>

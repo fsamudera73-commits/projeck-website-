@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tentang Kami - Toko Camilan Nusantara</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#FFF8DC;
+}
+
+header{
+    background:#FF9800;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+nav{
+    background:#333;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD54F;
+}
+
+.container{
+    width:85%;
+    margin:30px auto;
+}
+
+.card{
+    background:white;
+    color:rgb(255, 174, 0);
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgb(255, 132, 0);
+    margin-bottom:20px;
+}
+
+h2{
+    color:#E65100;
+}
+
+ul{
+    line-height:1.8;
+}
+
+footer{
+    background:#FF9800;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Toko Camilan Nusantara</h1>
+<p>Mengenal Kami Lebih Dekat</p>
+</header>
+
+<nav>
+<a href="index.html">Beranda</a>
+<a href="produk.html">Produk</a>
+<a href="tentang.html">Tentang Kami</a>
+<a href="kontak.html">Kontak</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Tentang Kami</h2>
+
+<p>
+Toko Camilan Nusantara merupakan usaha yang menyediakan berbagai
+macam camilan khas Indonesia dengan kualitas terbaik. Kami selalu
+mengutamakan rasa, kebersihan, dan kepuasan pelanggan sehingga setiap
+produk dibuat dari bahan pilihan yang segar dan berkualitas.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Visi</h2>
+
+<p>
+Menjadi toko camilan terpercaya yang menghadirkan cita rasa khas
+Nusantara dengan kualitas terbaik dan pelayanan yang memuaskan.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Misi</h2>
+
+<ul>
+<li>Menyediakan camilan berkualitas tinggi.</li>
+<li>Menjaga kebersihan dan keamanan produk.</li>
+<li>Memberikan harga yang terjangkau.</li>
+<li>Mengutamakan kepuasan pelanggan.</li>
+<li>Terus berinovasi dengan produk baru.</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Keunggulan Kami</h2>
+
+<ul>
+<li>✅ Menggunakan bahan berkualitas.</li>
+<li>✅ Banyak pilihan camilan.</li>
+<li>✅ Harga bersahabat.</li>
+<li>✅ Pelayanan cepat dan ramah.</li>
+<li>✅ Cocok untuk semua kalangan.</li>
+</ul>
+
+</div>
+
+</div>
+
+<footer>
+
+<p><b>Toko Camilan Nusantara</b></p>
+
+<p>&copy; 2026 All Rights Reserved.</p>
+<svg width="200" height="200">
+
+    <!-- Lingkaran luar -->
+    <circle cx="100" cy="100" r="80"
+        fill="#191970"
+        stroke="#D4A017"
+        stroke-width="6"/>
+
+    <!-- Keripik -->
+    <ellipse cx="100" cy="85" rx="30" ry="20"
+        fill="#FFD54F"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Keripik kedua -->
+    <ellipse cx="85" cy="115" rx="25" ry="18"
+        fill="#FFCA28"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Keripik ketiga -->
+    <ellipse cx="115" cy="115" rx="25" ry="18"
+        fill="#FFC107"
+        stroke="#B8860B"
+        stroke-width="2"/>
+
+    <!-- Huruf C (Camilan) -->
+    <text x="88" y="170"
+        font-size="30"
+        fill="white"
+        font-family="Arial"
+        font-weight="bold">
+        C
+    </text>
+
+</svg>
+
+</footer>
+
+</body>
+</html>
